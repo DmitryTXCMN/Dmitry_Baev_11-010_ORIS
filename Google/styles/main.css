@@ -1,0 +1,56 @@
+.main {
+    display: grid;
+    grid-template-rows: 3fr 92px 100px 85px 5fr;  
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    grid-row: 2;
+}
+
+.finder {
+    display: grid;
+    grid-template-columns: 35px 1fr 40px;
+    align-items: center;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+
+    grid-row: 3;
+}
+
+.input {
+    height: 39px;
+    width: 438px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.buttons {
+    height: 88px;
+    grid-row: 4;
+}
+
+.button {
+    height: 36;
+    width: 133;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.button:hover {
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.button:active {
+    border: rgb(46, 170, 228);
+}

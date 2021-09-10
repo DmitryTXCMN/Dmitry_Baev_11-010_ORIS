@@ -1,0 +1,5 @@
+.body {
+    display: grid;
+    grid-template-rows: 48px 1fr 30px 47px;
+    height: calc(100% - 20px);
+}

@@ -1,0 +1,29 @@
+.footer {
+    display: grid;
+    grid-template-columns: 138px 62px 136px 184px 51fr 450px 100fr 120px 135px 46px 32px;
+    height: 47px;    
+    justify-items: center;
+    align-items: center;
+    font: 14px arial,sans-serif;
+    border-top: 1px solid #dfe1e5;
+}
+
+.footLink:link {
+    text-decoration: none;
+}
+
+.footLink:visited {
+    text-decoration: none;
+}
+
+.footLink:hover {
+    text-decoration: underline;
+}
+
+.footLink:active {
+    text-decoration: underline;
+}
+
+.footLink {
+    color: #70757a;
+}

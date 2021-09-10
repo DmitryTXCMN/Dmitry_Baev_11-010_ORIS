@@ -1,0 +1,31 @@
+.header {
+    display: grid;
+    grid-template: 48px/ 1fr 50px 78px 48px 42px;
+    align-items: center;
+    font: 13px/27px Arial;
+    color: black;
+}
+
+.mail {
+    grid-column-start: 2;
+}
+
+.headLink:link {
+    text-decoration: none;
+}
+
+.headLink:visited {
+    text-decoration: none;
+}
+
+.headLink:hover {
+    text-decoration: underline;
+}
+
+.headLink:active {
+    text-decoration: underline;
+}
+
+.headLink {
+    color: black;
+}
