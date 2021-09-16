@@ -2,9 +2,85 @@
 
 <head>
     <title>Instagram</title>
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body class = "body">
-    
+    <main class = "main">
+        <div class="centerElements">
+            <div class="phoneImage">
+                <img src = "img/phoneimg.png" alt="iPhonePic" height="582px" width="367px">
+            </div>
+            <div class="template">
+                <div class="authTemplate">
+                    <div class="instLogo">
+                        <img src="img/instLogo.jpg" alt="instLogo" style = "margin: 22px auto 12px;">
+                    </div>
+                    <div class="loginSpace">
+                        <form class = "loginForm">
+                            <div class="loginInputs">
+                                <div class = "login">
+                                    <div class = loginField>
+                                        <label class="loginLabel">
+                                            <input class="loginInput" placeholder=" ">
+                                            <span class="loginSpan">
+                                                Телефон, имя пользователя или эл. адрес
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class = "password">
+                                    <div class="passwordField">
+                                        <label class="passwordLabel">
+                                            <input class="passwordInput" type="password" placeholder=" ">
+                                            <span class="passwordSpan">
+                                                Пароль
+                                            </span>
+                                         </label>
+                                    </div>
+                                </div>
+                                <div class = "log_in">
+                                    <button class="log_inButton">
+                                        <label class="log_inLabel">Войти</label>
+                                    </button>
+                                </div>
+                                <div class = "orField">
+                                    <div class="orLine"></div>
+                                    <div class="orLabel">Или</div>
+                                    <div class="orLine"></div>                                   
+                                </div>
+                                <div class = "facebookLogin">
+                                    
+                                    <button class="facebookLoginButton" onClick='location.href="https://www.facebook.com/login.php"'>
+                                        <span class="facebookButtonLogo">
+                                            <img src="img/facebookLogo.jpg">
+                                        </span>
+                                        <span class="facebookButtonLabel">
+                                            Войти через Facebook
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="forgotPass" href="https://www.instagram.com/accounts/password/reset/?hl=ru">Забыли пароль?</a>
+                        </form>
+                     </div>
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div>
+            <div>
+            
+            </div>
+            <div>
+                
+                пример
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

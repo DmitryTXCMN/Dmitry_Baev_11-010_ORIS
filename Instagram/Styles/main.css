@@ -1,0 +1,213 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerElements {
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-self: center;
+    align-self: center;
+    max-width: 935px;
+}
+
+.phoneImage {
+    display: flex;
+    align-self: center;
+    height: 618px;
+    width: 454px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+
+@media (max-width: 875px) {
+    .phoneImage {
+   display: none;
+    }
+}
+
+.template {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.authTemplate {
+    width: 350px;
+    height: 380px;
+    margin-top: 12px;
+    max-width: 350px;
+    flex-grow: 1;
+    border: 1px solid #dbdbdb;
+}
+
+.instLogo {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.loginSpace {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgotPass, .forgotPass:hover, .forgotPass:active, .forgotPass:visited {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login,.password {
+    margin: 0 40px 6px;
+}
+
+.loginField,.passwordField {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+
+.loginLabel,.passwordLabel {
+    display: flex;
+    height: 36px;
+    position: relative;
+}
+
+.loginSpan,.passwordSpan{
+    color: #8e8e8e;
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    position: absolute;
+    
+    transition: transform ease-out .1s;
+    transform-origin: left;
+    user-select: none;
+}
+
+.loginInput,.passwordInput {
+    font-size: 12px;
+    padding: 14px 0 2px 8px!important;
+    flex: 1 0 auto;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    right: 0;
+}
+
+.loginInput:focus ~ .loginSpan,.loginInput:not(:placeholder-shown) ~ .loginSpan {
+    transform: scale(.83333) translateY(-10px);
+}
+
+.passwordInput:focus ~ .passwordSpan,.passwordInput:not(:placeholder-shown) ~ .passwordSpan {
+    transform: scale(.83333) translateY(-10px);
+}
+
+.log_in {
+    margin: 8px 40px 8px 40px;
+    
+}
+
+.log_inButton {
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: rgba(0,149,246,.3);
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 9px;
+    user-select: none;
+}
+
+.log_inButton:hover {
+    cursor: pointer;
+    background-color: #0095f6;
+}
+
+.log_inLabel {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.orField {
+    display: flex;
+    margin: 10px 40px 18px;
+}
+
+.orLine {
+    display: flex;
+    flex-grow: 1;
+    background-color: #dbdbdb;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.orLabel {
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.facebookLogin {
+    display: flex;
+    margin: 8px 40px 8px 40px;
+    justify-content: center;
+}
+
+.facebookLoginButton {
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    padding: 5px 9px;
+    user-select: none;
+}
+
+.facebookLoginButton:active {
+opacity: .7;
+}
+
+.facebookButtonLogo {
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.facebookButtonLabel {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
