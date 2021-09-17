@@ -7,7 +7,6 @@
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     font-size: 12px;
     font-weight: 400;
-    background-color: aqua;
 }
 
 .upperLinks {
@@ -18,17 +17,45 @@
 }
 
 .lowerLinks {
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.footerLink {
+    height: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
 .select {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     cursor: pointer;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.footerSelect {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.footerSpan {
+    display: inline-block;
+    transform: rotate(180deg);
 }
